@@ -147,7 +147,7 @@ void merge(Lista* lista, Lista* lista1, Lista* lista2, int n1, int n2){
         top1++;
         top++;       
     }
-    while(top2 < n1){
+    while(top2 < n2){
         lista->fim->valor =  lista2->fim->valor;
         lista->fim = lista->fim->prox;
         lista2->fim = lista1->fim->prox;
